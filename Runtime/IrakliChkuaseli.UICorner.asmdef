@@ -1,0 +1,14 @@
+{
+  "name": "IrakliChkuaseli.UICorner",
+  "rootNamespace": "IrakliChkuaseli.UI.UICorner",
+  "references": [],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

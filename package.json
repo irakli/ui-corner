@@ -1,0 +1,29 @@
+{
+  "name": "com.iraklichkuaseli.uicorner",
+  "displayName": "UI Corner",
+  "version": "1.0.0",
+  "unity": "2021.3",
+  "description": "GPU-accelerated rounded and chamfered corners for Unity UI elements. 2.5-3× faster than alternatives using SDF rendering with Inigo Quilez's quadrant-selection technique.",
+  "keywords": [
+    "ui",
+    "ugui",
+    "corners",
+    "rounded",
+    "chamfered",
+    "shader",
+    "sdf",
+    "performance"
+  ],
+  "author": {
+    "name": "Irakli Chkuaseli",
+    "url": "https://iraklichkuaseli.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/irakli/ui-corner.git"
+  },
+  "documentationUrl": "https://github.com/irakli/ui-corner#readme",
+  "changelogUrl": "https://github.com/irakli/ui-corner/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/irakli/ui-corner/blob/main/LICENSE.md"
+}
