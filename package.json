@@ -1,7 +1,7 @@
 {
   "name": "com.iraklichkuaseli.uicorner",
   "displayName": "UI Corner",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "unity": "2021.3",
   "description": "GPU-accelerated rounded and chamfered corners for Unity UI elements. 2.5-3× faster than alternatives using SDF rendering with Inigo Quilez's quadrant-selection technique.",
   "keywords": [

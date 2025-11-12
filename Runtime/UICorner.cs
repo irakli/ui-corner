@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -42,10 +43,17 @@ namespace IrakliChkuaseli.UI.UICorner
         [HideInInspector] [SerializeField] private Vector4 rect2props;
         [HideInInspector] [SerializeField] private MaskableGraphic image;
 
+        /// <summary>
+        /// Invoked when corner properties change (radius, style).
+        /// Use for integrations like True Shadow, DOTween, etc.
+        /// </summary>
+        public event Action PropertiesChanged;
+
         private void OnValidate()
         {
             Validate();
             Refresh();
+            PropertiesChanged?.Invoke();
         }
 
         private void OnEnable()

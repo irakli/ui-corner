@@ -75,6 +75,17 @@ Or install via Package Manager:
 
 **Compatibility**: Works with Unity UI Mask system and all standard Image features
 
+## Integration API
+
+UICorner exposes a `PropertiesChanged` event that fires whenever corner properties (radius or style) change. This allows you to react to changes for animations, shadow updates, or other visual effects.
+
+```csharp
+var uiCorner = GetComponent<UICorner>();
+uiCorner.PropertiesChanged += () => {
+    // React to corner property changes
+};
+```
+
 ## Package Structure
 
 ```
