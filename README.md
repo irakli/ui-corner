@@ -24,7 +24,7 @@ Or add the package via OpenUPM scoped registry in `Packages/manifest.json`:
     }
   ],
   "dependencies": {
-    "com.iraklichkuaseli.uicorner": "1.0.0"
+    "com.iraklichkuaseli.uicorner": "1.1.1"
   }
 }
 ```
@@ -103,6 +103,8 @@ com.iraklichkuaseli.uicorner/
 ├── Editor/
 │   ├── UICornerEditor.cs    # Custom inspector
 │   └── IrakliChkuaseli.UICorner.Editor.asmdef
+├── Icons/
+│   └── UICornerIcon.png     # Component icon
 └── Tests/
     ├── Editor/              # Editor tests (placeholder)
     └── Runtime/             # Runtime tests (placeholder)
